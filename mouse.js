@@ -1,4 +1,4 @@
-const Mouse = (name, age) => {
+function Mouse(name, age) {
 	this.name = name;
 	this.age = age;
 	this.die = false;

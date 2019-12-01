@@ -4,7 +4,7 @@ function Mouse(name, age) {
 	this.die = false;
 };
 
-Mouse.prototype.die = () => {
+Mouse.prototype.died = function(){
 	this.die = true
 };
 

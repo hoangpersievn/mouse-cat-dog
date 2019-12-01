@@ -5,7 +5,7 @@ function Cat(name, age){
 	this.tomach = [];
 }
 
-Cat.prototype.eat = (mouse) => {
+Cat.prototype.eat = function(mouse) {
 	this.tomach.push(mouse)
 };
 

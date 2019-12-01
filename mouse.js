@@ -3,4 +3,4 @@ const Mouse = (name, age) => {
 	this.age = age
 };
 
-module.export(Mouse);
+module.exports = Mouse;

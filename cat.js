@@ -1,6 +1,12 @@
-const Mouse = (name, age) => {
-	this.name = name
-	this.age = age
+const Cat = (name, age) => {
+
+	this.name = name;
+	this.age = age;
+	this.tomach = [];
 }
 
-module.export(Mouse);
+Cat.prototype.eat = (mouse) => {
+	this.tomach.push(mouse)
+};
+
+module.exports = Cat;
